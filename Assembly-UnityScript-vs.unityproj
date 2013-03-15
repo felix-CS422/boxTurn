@@ -44,13 +44,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plates\Scripts\PlateController.js" />
-     <Compile Include="Assets\Prefab\Script\Player.js" />
-     <Compile Include="Assets\Prefab\Script\Projectile.js" />
-     <Compile Include="Assets\Rotator\Rotator.js" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
+     <Compile Include="Assets\Script\CharacterMotor.js" />
+     <Compile Include="Assets\Script\Plate.js" />
+     <Compile Include="Assets\Script\PlateController.js" />
+     <Compile Include="Assets\Script\PlatformInputController.js" />
+     <Compile Include="Assets\Script\Player.js" />
+     <Compile Include="Assets\Script\Projectile.js" />
+     <Compile Include="Assets\Script\PushPlate.js" />
+     <Compile Include="Assets\Script\Rotator.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
