@@ -62,7 +62,7 @@ function getInputData() {
 	}
 	
 	//Fire a projectile when SHIFT button is pressed
-	if( Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift) ) {
+	if( Input.GetKeyDown(KeyCode.LeftAlt) || Input.GetKeyDown(KeyCode.RightAlt) ) {
 	
 		var steam = Instantiate(projectile, transform.position + (transform.forward*0.5), transform.rotation);
 		steam.rigidbody.AddForce(steam.transform.forward * projectileSpeed);
